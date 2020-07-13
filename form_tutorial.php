@@ -11,5 +11,7 @@
 
         mail($mailTo, $subject, $txt, $headers);
         header("Location: index.php?mailsent");
+        
+        echo "MAIL SENT";
     }
 ?>
